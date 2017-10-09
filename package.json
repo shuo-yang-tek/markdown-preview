@@ -1,0 +1,21 @@
+{
+  "name": "markdown-preview",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Shuo Yang",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^1.7.0",
+    "express": "^4.16.1",
+    "express-ws": "^3.0.0",
+    "marked": "^0.3.6",
+    "pug": "^2.0.0-rc.4",
+    "pygmentize-bundled": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0"
+  },
+	"bin": {
+		"markdown-preview": "./bin/markdown-preview.js"
+	}
+}
